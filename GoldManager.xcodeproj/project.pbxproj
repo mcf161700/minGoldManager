@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E775F2FFD33B579F43663C8 /* Pods_GoldManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7DF4E4096310E248F1E1B8 /* Pods_GoldManager.framework */; };
+		391943851F05E0830004DE84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 391943841F05E0830004DE84 /* main.m */; };
+		391943881F05E0830004DE84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 391943871F05E0830004DE84 /* AppDelegate.m */; };
+		3919438E1F05E0830004DE84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3919438C1F05E0830004DE84 /* Main.storyboard */; };
+		391943901F05E0830004DE84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3919438F1F05E0830004DE84 /* Assets.xcassets */; };
+		391943931F05E0830004DE84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 391943911F05E0830004DE84 /* LaunchScreen.storyboard */; };
+		3919439E1F05E0840004DE84 /* GoldManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3919439D1F05E0840004DE84 /* GoldManagerTests.m */; };
+		391943A91F05E0840004DE84 /* GoldManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 391943A81F05E0840004DE84 /* GoldManagerUITests.m */; };
+		391943B81F05E1BF0004DE84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 391943B71F05E1BF0004DE84 /* ViewController.m */; };
+		391943EF1F05E5C20004DE84 /* GoldBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 391943EE1F05E5C20004DE84 /* GoldBuyViewController.m */; };
+		391943F21F05E6600004DE84 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 391943F11F05E6600004DE84 /* BaseNavigationController.m */; };
+		391943F51F05E9840004DE84 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391943F41F05E9840004DE84 /* WebKit.framework */; };
+		391943F71F05E9940004DE84 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391943F61F05E9940004DE84 /* SystemConfiguration.framework */; };
+		391943F91F05E9A10004DE84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391943F81F05E9A10004DE84 /* UIKit.framework */; };
+		391943FB1F05E9AE0004DE84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391943FA1F05E9AE0004DE84 /* Foundation.framework */; };
+		391943FD1F05E9BF0004DE84 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391943FC1F05E9BF0004DE84 /* AVFoundation.framework */; };
+		391943FF1F05E9CB0004DE84 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391943FE1F05E9CB0004DE84 /* CoreFoundation.framework */; };
+		391944021F05EE3D0004DE84 /* WYWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 391944011F05EE3D0004DE84 /* WYWebView.m */; };
+		391944051F05F2DB0004DE84 /* CustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 391944041F05F2DB0004DE84 /* CustomNavigationBar.m */; };
+		3919440D1F05F8430004DE84 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 3919440C1F05F8430004DE84 /* Common.m */; };
+		391944101F061A180004DE84 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3919440F1F061A180004DE84 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		EF77A8CEAF01FD649043321D /* Pods_GoldManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0176C5DADABC6561C5A3202D /* Pods_GoldManagerTests.framework */; };
+		FDA79F80A630C322607923C8 /* Pods_GoldManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 519822945FC1AC8F8A4B799E /* Pods_GoldManagerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3919439A1F05E0840004DE84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391943781F05E0830004DE84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3919437F1F05E0830004DE84;
+			remoteInfo = GoldManager;
+		};
+		391943A51F05E0840004DE84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 391943781F05E0830004DE84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3919437F1F05E0830004DE84;
+			remoteInfo = GoldManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0176C5DADABC6561C5A3202D /* Pods_GoldManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoldManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D090C81FE16DA2CE08F33E3 /* Pods-GoldManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoldManager/Pods-GoldManager.debug.xcconfig"; sourceTree = "<group>"; };
+		2A3EFC6F54D1A8887A693584 /* Pods-GoldManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoldManager/Pods-GoldManager.release.xcconfig"; sourceTree = "<group>"; };
+		391943801F05E0830004DE84 /* GoldManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		391943841F05E0830004DE84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		391943861F05E0830004DE84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		391943871F05E0830004DE84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3919438D1F05E0830004DE84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3919438F1F05E0830004DE84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		391943921F05E0830004DE84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		391943941F05E0830004DE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391943991F05E0840004DE84 /* GoldManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3919439D1F05E0840004DE84 /* GoldManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoldManagerTests.m; sourceTree = "<group>"; };
+		3919439F1F05E0840004DE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391943A41F05E0840004DE84 /* GoldManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		391943A81F05E0840004DE84 /* GoldManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoldManagerUITests.m; sourceTree = "<group>"; };
+		391943AA1F05E0840004DE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391943B61F05E1BF0004DE84 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Class/ViewController.h; sourceTree = "<group>"; };
+		391943B71F05E1BF0004DE84 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Class/ViewController.m; sourceTree = "<group>"; };
+		391943ED1F05E4D60004DE84 /* GoldBuyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoldBuyViewController.h; sourceTree = "<group>"; };
+		391943EE1F05E5C20004DE84 /* GoldBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoldBuyViewController.m; sourceTree = "<group>"; };
+		391943F01F05E6600004DE84 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		391943F11F05E6600004DE84 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		391943F41F05E9840004DE84 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		391943F61F05E9940004DE84 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		391943F81F05E9A10004DE84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		391943FA1F05E9AE0004DE84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		391943FC1F05E9BF0004DE84 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		391943FE1F05E9CB0004DE84 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		391944001F05EE3D0004DE84 /* WYWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WYWebView.h; path = WYWebView/WYWebView.h; sourceTree = "<group>"; };
+		391944011F05EE3D0004DE84 /* WYWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WYWebView.m; path = WYWebView/WYWebView.m; sourceTree = "<group>"; };
+		391944031F05F2DB0004DE84 /* CustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationBar.h; sourceTree = "<group>"; };
+		391944041F05F2DB0004DE84 /* CustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationBar.m; sourceTree = "<group>"; };
+		391944061F05F44D0004DE84 /* WYConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WYConstants.h; path = Constant/WYConstants.h; sourceTree = "<group>"; };
+		391944091F05F6F60004DE84 /* GoldManager-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoldManager-PrefixHeader.pch"; sourceTree = "<group>"; };
+		3919440A1F05F7FC0004DE84 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Constant/Constants.h; sourceTree = "<group>"; };
+		3919440B1F05F8430004DE84 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		3919440C1F05F8430004DE84 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		3919440E1F061A180004DE84 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		3919440F1F061A180004DE84 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		3FF84C0870E07F21FCD1D927 /* Pods-GoldManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldManagerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoldManagerUITests/Pods-GoldManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		519822945FC1AC8F8A4B799E /* Pods_GoldManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoldManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D66BDE37C239F4C3FB3DEE2 /* Pods-GoldManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoldManagerTests/Pods-GoldManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		91697F5CAE02548B00E456FC /* Pods-GoldManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoldManagerTests/Pods-GoldManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB7DF4E4096310E248F1E1B8 /* Pods_GoldManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoldManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A46B07ADD007B23B389D91 /* Pods-GoldManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoldManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoldManagerUITests/Pods-GoldManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3919437D1F05E0830004DE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391943FF1F05E9CB0004DE84 /* CoreFoundation.framework in Frameworks */,
+				391943FD1F05E9BF0004DE84 /* AVFoundation.framework in Frameworks */,
+				391943FB1F05E9AE0004DE84 /* Foundation.framework in Frameworks */,
+				391943F91F05E9A10004DE84 /* UIKit.framework in Frameworks */,
+				391943F71F05E9940004DE84 /* SystemConfiguration.framework in Frameworks */,
+				391943F51F05E9840004DE84 /* WebKit.framework in Frameworks */,
+				2E775F2FFD33B579F43663C8 /* Pods_GoldManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391943961F05E0840004DE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF77A8CEAF01FD649043321D /* Pods_GoldManagerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391943A11F05E0840004DE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA79F80A630C322607923C8 /* Pods_GoldManagerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		391943771F05E0830004DE84 = {
+			isa = PBXGroup;
+			children = (
+				391943821F05E0830004DE84 /* GoldManager */,
+				3919439C1F05E0840004DE84 /* GoldManagerTests */,
+				391943A71F05E0840004DE84 /* GoldManagerUITests */,
+				391943811F05E0830004DE84 /* Products */,
+				391943F31F05E9840004DE84 /* Frameworks */,
+				A198422D3A84EACE06283EC0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		391943811F05E0830004DE84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				391943801F05E0830004DE84 /* GoldManager.app */,
+				391943991F05E0840004DE84 /* GoldManagerTests.xctest */,
+				391943A41F05E0840004DE84 /* GoldManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		391943821F05E0830004DE84 /* GoldManager */ = {
+			isa = PBXGroup;
+			children = (
+				391943B91F05E1C50004DE84 /* Class */,
+				391943861F05E0830004DE84 /* AppDelegate.h */,
+				391943871F05E0830004DE84 /* AppDelegate.m */,
+				3919438C1F05E0830004DE84 /* Main.storyboard */,
+				3919438F1F05E0830004DE84 /* Assets.xcassets */,
+				391943911F05E0830004DE84 /* LaunchScreen.storyboard */,
+				391943941F05E0830004DE84 /* Info.plist */,
+				391943831F05E0830004DE84 /* Supporting Files */,
+			);
+			path = GoldManager;
+			sourceTree = "<group>";
+		};
+		391943831F05E0830004DE84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				391943841F05E0830004DE84 /* main.m */,
+				391944091F05F6F60004DE84 /* GoldManager-PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3919439C1F05E0840004DE84 /* GoldManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3919439D1F05E0840004DE84 /* GoldManagerTests.m */,
+				3919439F1F05E0840004DE84 /* Info.plist */,
+			);
+			path = GoldManagerTests;
+			sourceTree = "<group>";
+		};
+		391943A71F05E0840004DE84 /* GoldManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				391943A81F05E0840004DE84 /* GoldManagerUITests.m */,
+				391943AA1F05E0840004DE84 /* Info.plist */,
+			);
+			path = GoldManagerUITests;
+			sourceTree = "<group>";
+		};
+		391943B91F05E1C50004DE84 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				3919440A1F05F7FC0004DE84 /* Constants.h */,
+				3919440B1F05F8430004DE84 /* Common.h */,
+				3919440C1F05F8430004DE84 /* Common.m */,
+				391944061F05F44D0004DE84 /* WYConstants.h */,
+				391944031F05F2DB0004DE84 /* CustomNavigationBar.h */,
+				391944041F05F2DB0004DE84 /* CustomNavigationBar.m */,
+				391944001F05EE3D0004DE84 /* WYWebView.h */,
+				391944011F05EE3D0004DE84 /* WYWebView.m */,
+				391943F01F05E6600004DE84 /* BaseNavigationController.h */,
+				391943F11F05E6600004DE84 /* BaseNavigationController.m */,
+				391943B61F05E1BF0004DE84 /* ViewController.h */,
+				391943B71F05E1BF0004DE84 /* ViewController.m */,
+				391943ED1F05E4D60004DE84 /* GoldBuyViewController.h */,
+				391943EE1F05E5C20004DE84 /* GoldBuyViewController.m */,
+				3919440E1F061A180004DE84 /* UINavigationController+FDFullscreenPopGesture.h */,
+				3919440F1F061A180004DE84 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		391943F31F05E9840004DE84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				391943FE1F05E9CB0004DE84 /* CoreFoundation.framework */,
+				391943FC1F05E9BF0004DE84 /* AVFoundation.framework */,
+				391943FA1F05E9AE0004DE84 /* Foundation.framework */,
+				391943F81F05E9A10004DE84 /* UIKit.framework */,
+				391943F61F05E9940004DE84 /* SystemConfiguration.framework */,
+				391943F41F05E9840004DE84 /* WebKit.framework */,
+				DB7DF4E4096310E248F1E1B8 /* Pods_GoldManager.framework */,
+				0176C5DADABC6561C5A3202D /* Pods_GoldManagerTests.framework */,
+				519822945FC1AC8F8A4B799E /* Pods_GoldManagerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A198422D3A84EACE06283EC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D090C81FE16DA2CE08F33E3 /* Pods-GoldManager.debug.xcconfig */,
+				2A3EFC6F54D1A8887A693584 /* Pods-GoldManager.release.xcconfig */,
+				91697F5CAE02548B00E456FC /* Pods-GoldManagerTests.debug.xcconfig */,
+				7D66BDE37C239F4C3FB3DEE2 /* Pods-GoldManagerTests.release.xcconfig */,
+				F8A46B07ADD007B23B389D91 /* Pods-GoldManagerUITests.debug.xcconfig */,
+				3FF84C0870E07F21FCD1D927 /* Pods-GoldManagerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3919437F1F05E0830004DE84 /* GoldManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391943AD1F05E0840004DE84 /* Build configuration list for PBXNativeTarget "GoldManager" */;
+			buildPhases = (
+				A2CF5B4DD42387AEFDC71723 /* [CP] Check Pods Manifest.lock */,
+				3919437C1F05E0830004DE84 /* Sources */,
+				3919437D1F05E0830004DE84 /* Frameworks */,
+				3919437E1F05E0830004DE84 /* Resources */,
+				96B1ACB65D1A2AF5913F32CE /* [CP] Embed Pods Frameworks */,
+				61D017FB8927F57F85332728 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoldManager;
+			productName = GoldManager;
+			productReference = 391943801F05E0830004DE84 /* GoldManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		391943981F05E0840004DE84 /* GoldManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391943B01F05E0840004DE84 /* Build configuration list for PBXNativeTarget "GoldManagerTests" */;
+			buildPhases = (
+				2CE1A56A522C812083D73BD1 /* [CP] Check Pods Manifest.lock */,
+				391943951F05E0840004DE84 /* Sources */,
+				391943961F05E0840004DE84 /* Frameworks */,
+				391943971F05E0840004DE84 /* Resources */,
+				EC4E7B73D915570966AD6BF7 /* [CP] Embed Pods Frameworks */,
+				E390CA8E2D9FF41C2D2B2B1A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3919439B1F05E0840004DE84 /* PBXTargetDependency */,
+			);
+			name = GoldManagerTests;
+			productName = GoldManagerTests;
+			productReference = 391943991F05E0840004DE84 /* GoldManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		391943A31F05E0840004DE84 /* GoldManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391943B31F05E0840004DE84 /* Build configuration list for PBXNativeTarget "GoldManagerUITests" */;
+			buildPhases = (
+				9D4C638C6C29A05D156D1778 /* [CP] Check Pods Manifest.lock */,
+				391943A01F05E0840004DE84 /* Sources */,
+				391943A11F05E0840004DE84 /* Frameworks */,
+				391943A21F05E0840004DE84 /* Resources */,
+				98064EED560B158029820B98 /* [CP] Embed Pods Frameworks */,
+				EB25C86F388571BD2EC169F7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				391943A61F05E0840004DE84 /* PBXTargetDependency */,
+			);
+			name = GoldManagerUITests;
+			productName = GoldManagerUITests;
+			productReference = 391943A41F05E0840004DE84 /* GoldManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		391943781F05E0830004DE84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Gevent;
+				TargetAttributes = {
+					3919437F1F05E0830004DE84 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = UYQ85NE8N7;
+						ProvisioningStyle = Automatic;
+					};
+					391943981F05E0840004DE84 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = UYQ85NE8N7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3919437F1F05E0830004DE84;
+					};
+					391943A31F05E0840004DE84 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = UYQ85NE8N7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3919437F1F05E0830004DE84;
+					};
+				};
+			};
+			buildConfigurationList = 3919437B1F05E0830004DE84 /* Build configuration list for PBXProject "GoldManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 391943771F05E0830004DE84;
+			productRefGroup = 391943811F05E0830004DE84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3919437F1F05E0830004DE84 /* GoldManager */,
+				391943981F05E0840004DE84 /* GoldManagerTests */,
+				391943A31F05E0840004DE84 /* GoldManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3919437E1F05E0830004DE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391943931F05E0830004DE84 /* LaunchScreen.storyboard in Resources */,
+				391943901F05E0830004DE84 /* Assets.xcassets in Resources */,
+				3919438E1F05E0830004DE84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391943971F05E0840004DE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391943A21F05E0840004DE84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CE1A56A522C812083D73BD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61D017FB8927F57F85332728 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoldManager/Pods-GoldManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96B1ACB65D1A2AF5913F32CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoldManager/Pods-GoldManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98064EED560B158029820B98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoldManagerUITests/Pods-GoldManagerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D4C638C6C29A05D156D1778 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A2CF5B4DD42387AEFDC71723 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E390CA8E2D9FF41C2D2B2B1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoldManagerTests/Pods-GoldManagerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB25C86F388571BD2EC169F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoldManagerUITests/Pods-GoldManagerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC4E7B73D915570966AD6BF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoldManagerTests/Pods-GoldManagerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3919437C1F05E0830004DE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391943B81F05E1BF0004DE84 /* ViewController.m in Sources */,
+				391943881F05E0830004DE84 /* AppDelegate.m in Sources */,
+				391943851F05E0830004DE84 /* main.m in Sources */,
+				391944101F061A180004DE84 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				391943EF1F05E5C20004DE84 /* GoldBuyViewController.m in Sources */,
+				3919440D1F05F8430004DE84 /* Common.m in Sources */,
+				391943F21F05E6600004DE84 /* BaseNavigationController.m in Sources */,
+				391944021F05EE3D0004DE84 /* WYWebView.m in Sources */,
+				391944051F05F2DB0004DE84 /* CustomNavigationBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391943951F05E0840004DE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3919439E1F05E0840004DE84 /* GoldManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		391943A01F05E0840004DE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				391943A91F05E0840004DE84 /* GoldManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3919439B1F05E0840004DE84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3919437F1F05E0830004DE84 /* GoldManager */;
+			targetProxy = 3919439A1F05E0840004DE84 /* PBXContainerItemProxy */;
+		};
+		391943A61F05E0840004DE84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3919437F1F05E0830004DE84 /* GoldManager */;
+			targetProxy = 391943A51F05E0840004DE84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3919438C1F05E0830004DE84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3919438D1F05E0830004DE84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		391943911F05E0830004DE84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				391943921F05E0830004DE84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		391943AB1F05E0840004DE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		391943AC1F05E0840004DE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		391943AE1F05E0840004DE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D090C81FE16DA2CE08F33E3 /* Pods-GoldManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UYQ85NE8N7;
+				GCC_PREFIX_HEADER = "GoldManager/GoldManager-PrefixHeader.pch";
+				INFOPLIST_FILE = GoldManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gevent.GoldManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		391943AF1F05E0840004DE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3EFC6F54D1A8887A693584 /* Pods-GoldManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UYQ85NE8N7;
+				GCC_PREFIX_HEADER = "GoldManager/GoldManager-PrefixHeader.pch";
+				INFOPLIST_FILE = GoldManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gevent.GoldManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		391943B11F05E0840004DE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91697F5CAE02548B00E456FC /* Pods-GoldManagerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UYQ85NE8N7;
+				INFOPLIST_FILE = GoldManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gevent.GoldManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoldManager.app/GoldManager";
+			};
+			name = Debug;
+		};
+		391943B21F05E0840004DE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D66BDE37C239F4C3FB3DEE2 /* Pods-GoldManagerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UYQ85NE8N7;
+				INFOPLIST_FILE = GoldManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gevent.GoldManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoldManager.app/GoldManager";
+			};
+			name = Release;
+		};
+		391943B41F05E0840004DE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A46B07ADD007B23B389D91 /* Pods-GoldManagerUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UYQ85NE8N7;
+				INFOPLIST_FILE = GoldManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gevent.GoldManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoldManager;
+			};
+			name = Debug;
+		};
+		391943B51F05E0840004DE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF84C0870E07F21FCD1D927 /* Pods-GoldManagerUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = UYQ85NE8N7;
+				INFOPLIST_FILE = GoldManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gevent.GoldManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoldManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3919437B1F05E0830004DE84 /* Build configuration list for PBXProject "GoldManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391943AB1F05E0840004DE84 /* Debug */,
+				391943AC1F05E0840004DE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391943AD1F05E0840004DE84 /* Build configuration list for PBXNativeTarget "GoldManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391943AE1F05E0840004DE84 /* Debug */,
+				391943AF1F05E0840004DE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391943B01F05E0840004DE84 /* Build configuration list for PBXNativeTarget "GoldManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391943B11F05E0840004DE84 /* Debug */,
+				391943B21F05E0840004DE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		391943B31F05E0840004DE84 /* Build configuration list for PBXNativeTarget "GoldManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391943B41F05E0840004DE84 /* Debug */,
+				391943B51F05E0840004DE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 391943781F05E0830004DE84 /* Project object */;
+}

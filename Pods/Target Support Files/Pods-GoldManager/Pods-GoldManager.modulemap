@@ -1,0 +1,6 @@
+framework module Pods_GoldManager {
+  umbrella header "Pods-GoldManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_GoldManagerUITests {
+  umbrella header "Pods-GoldManagerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
